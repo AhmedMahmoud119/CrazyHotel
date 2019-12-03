@@ -21,11 +21,21 @@ if you don't need any one you can remove it from URL
 
 - HotelsController
 
+- ``` $providers ```
+
+Providers Variable that Containing all Providers (BestHotel,TopHotel)
+
+- ``` $hotels ```
+
+hotels Variable that Containing all Hotels 
+
 - ``` filter_hotels() ``` function
+
 You will find function ``` filter_hotels() ``` that Filter the Hotels According to Request Parameters .
 This Function Accepts Array of Hotels , Request And Provider (optional)
 
 - ``` select_attributes() ``` function
+
 You will find function ``` select_attributes() ``` that will select Attributes From Hotels Array
 to send it in Json response
 
